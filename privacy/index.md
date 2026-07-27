@@ -40,7 +40,9 @@ BBLOG는 기능 제공을 위해 다음 서비스를 사용합니다.
 
 ## 4. 보관 및 삭제
 
-커뮤니티 계정 정보는 이용자가 계정을 삭제할 때까지 보관합니다. 앱의 `설정 → 마이페이지 → 계정 삭제`에서 Firebase 로그인 계정 연결, 커뮤니티 프로필, 닉네임 예약, 공유 번역, 투표 및 신고 기록을 삭제할 수 있습니다.
+커뮤니티 계정 정보는 이용자가 계정을 삭제할 때까지 보관합니다. 앱의 `설정 → 마이페이지 → 계정 삭제`에서 Firebase 로그인 계정 연결, 커뮤니티 프로필, 닉네임 예약, 투표 및 신고 기록을 삭제할 수 있습니다.
+
+이용자가 공유한 번역문은 다른 이용자가 계속 사용할 수 있도록 보존될 수 있습니다. 계정 삭제 시 해당 번역에서 작성자 Firebase 식별자와 닉네임을 제거하고 `탈퇴한 사용자`로 표시하여 삭제된 계정과 다시 연결할 수 없도록 익명화합니다.
 
 계정 삭제는 기기에 저장된 번역, 읽기 기록, 앱 설정 및 사용자가 별도로 저장한 백업 파일을 삭제하지 않습니다. 이러한 정보는 앱 데이터 삭제 또는 백업 파일 삭제를 통해 이용자가 직접 제거할 수 있습니다.
 
@@ -102,7 +104,9 @@ Each provider may process information such as IP addresses, device data, or requ
 
 ## 4. Retention and deletion
 
-Community account information is retained until the user deletes the account. Users can delete their Firebase sign-in connection, community profile, nickname reservation, shared translations, votes, and reports in `Settings → My Page → Delete Account`.
+Community account information is retained until the user deletes the account. Users can delete their Firebase sign-in connection, community profile, nickname reservation, votes, and reports in `Settings → My Page → Delete Account`.
+
+Translations shared by the user may be retained so that they remain available to the community. On account deletion, the author's Firebase identifier and nickname are removed from those translations, they are displayed as submitted by a `Deleted user`, and they can no longer be linked back to the deleted account.
 
 Account deletion does not remove translations, reading history, app settings, or separately saved backup files stored on the device. Users can remove these by clearing BBLOG app data and deleting their backup files.
 
@@ -123,4 +127,3 @@ BBLOG uses HTTPS, Firebase Security Rules, authenticated access controls, and An
 ## 8. Changes and contact
 
 If this policy changes, the effective date and relevant changes will be posted on this page.
-

@@ -21,8 +21,9 @@ BBLOG의 커뮤니티 계정과 관련 데이터를 삭제할 수 있습니다.
 
 - BBLOG의 Firebase 로그인 계정 연결
 - 커뮤니티 프로필과 닉네임 예약
-- 공유한 번역
 - 좋아요·싫어요 투표와 신고 기록
+
+공유한 번역문은 다른 이용자가 계속 사용할 수 있도록 남지만 작성자 Firebase 식별자와 닉네임이 제거되고 `탈퇴한 사용자`로 표시됩니다. 익명화된 번역은 삭제된 계정과 다시 연결하거나 계정 복구에 사용할 수 없습니다.
 
 기기에 저장된 번역, 읽기 기록, 앱 설정 및 사용자가 별도로 만든 백업 파일은 삭제되지 않습니다. 필요한 경우 Android 설정에서 BBLOG의 앱 데이터를 삭제하고 저장한 백업 파일도 직접 삭제해 주세요.
 
@@ -53,8 +54,9 @@ The following data is permanently deleted:
 
 - The Firebase sign-in connection used by BBLOG
 - Community profile and nickname reservation
-- Shared translations
 - Like and dislike votes and report records
+
+Shared translations remain available to other users, but the author's Firebase identifier and nickname are removed and the author is displayed as `Deleted user`. An anonymized translation cannot be linked back to or used to recover the deleted account.
 
 Translations, reading history, app settings, and separately created backup files stored on the device are not deleted. If needed, clear BBLOG app data in Android settings and delete saved backup files separately.
 
@@ -63,4 +65,3 @@ Translations, reading history, app settings, and separately created backup files
 Email [vloslain@gmail.com](mailto:vloslain@gmail.com) with the subject `BBLOG Account Deletion Request`. Include the Google account email used for BBLOG and send the request from the same address so account ownership can be verified. Verified requests are normally processed within 30 days.
 
 Limited records may be retained where required by law or for a necessary security or fraud-prevention purpose.
-
