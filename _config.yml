@@ -1,0 +1,9 @@
+title: BBLOG
+description: BBLOG support and policy pages
+theme: minima
+lang: ko-KR
+header_pages:
+  - index.md
+  - privacy/index.md
+  - account-deletion/index.md
+
